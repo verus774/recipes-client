@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-import {IngredientListComponent} from './components';
+import {IngredientItemComponent, IngredientListComponent} from './components';
 import {IngredientsRoutingModule} from './ingredients-routing.module';
 
 @NgModule({
@@ -10,6 +10,7 @@ import {IngredientsRoutingModule} from './ingredients-routing.module';
     IngredientsRoutingModule,
   ],
   declarations: [
+    IngredientItemComponent,
     IngredientListComponent,
   ]
 })
