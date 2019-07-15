@@ -1,7 +1,6 @@
 <h3>Ingredients</h3>
 
-<ul>
-  <li *ngFor="let ingredient of ingredients$ | async">
-    <app-ingredient-item [ingredient]="ingredient"></app-ingredient-item>
-  </li>
-</ul>
+<app-ingredient-item
+  *ngFor="let ingredient of ingredients$ | async"
+  [ingredient]="ingredient"
+></app-ingredient-item>
