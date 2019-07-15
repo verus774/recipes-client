@@ -1,5 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
+import {MatToolbarModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import {AppRoutingModule} from './app-routing.module';
@@ -14,6 +15,7 @@ import {IngredientsModule} from './ingredients/ingredients.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatToolbarModule,
     IngredientsModule,
     AppRoutingModule,
   ],
